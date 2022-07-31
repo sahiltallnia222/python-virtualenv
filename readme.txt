@@ -37,5 +37,15 @@ pip install package_name==x.x.xx  | version
 
 so when we will give the requirements.txt file to anybody he can install the dependencies by the given above command.
 
+But if there are huge number of dependencies that it is very hard to install one by one so how can we do this ->
+
+path > pip install -r .\requirements.txt
+
+it will automatically install all the dependencies.
+
+if we want to make a vritual environment that also have the packages of system pyhton (main)
+
+use 
+path> pip install --system-site-package virutal_env_folder_name
 
 
