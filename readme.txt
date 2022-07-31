@@ -48,4 +48,30 @@ if we want to make a vritual environment that also have the packages of system p
 use 
 --------------path> pip install --system-site-package virutal_env_folder_name----------------------
 
+to create the virtual env for the specific python version
 
+use
+----------path>virtualenv venv --python=python3.10   for 3.10 version same for other----------
+
+
+to check all the python versions in pc use
+
+-----py -0-------
+
+or 
+
+----py --list ------
+
+
+
+Which python version will be default to do so 
+
+The python folder with version persent at the first in the paths.
+
+if you want to make any specific python version as the system default version of python then 
+
+go to the environment path in system 
+
+open path ->
+
+move up all the paths related to that version.
