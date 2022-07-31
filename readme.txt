@@ -6,19 +6,19 @@ we can say that virtual environment creates a new python for that perticular wor
 
 so commands for the python virtaul environments are as follow
 
-any path>pip install virtualenv   | and press enter it will install the virtualenv packages in the computer
+------any path>pip install virtualenv---------   | and press enter it will install the virtualenv packages in the computer
 
 now open the folder where we want to create the virtual environment ->
 
-path>virtualenv folder_name   | folder_name is the new folder that we are creating in this folder all the dependencies will be installed on pressing enter.
+------------path>virtualenv folder_name----------   | folder_name is the new folder that we are creating in this folder all the dependencies will be installed on pressing enter.
 
 not to activate the virtualenv use command 
 
-path\folder_name>Scripts\actiate
+---------path\folder_name>Scripts\actiate----------------
 
 to deactivate the virtualenv use
 
-(folder_name)path\folder_name>deactivate     | here folder_name at the starting is showing that we are in the virtual environment , we acn come out this folder_name and make our own folder to create the project.
+----------------------(folder_name)path\folder_name>deactivate----------     | here folder_name at the starting is showing that we are in the virtual environment , we acn come out this folder_name and make our own folder to create the project.
 
 
 if we need to give this project to anybody we will not give the folder_name folder because it is very big in size
@@ -27,25 +27,25 @@ to give anybody we will give the source code along with requirements.txt file
 
 How to generate the requirements.txt file ??
 
-path>pip freeze > requirements.txt
+--------path>pip freeze > requirements.txt----------------
 
 ------
 
 to install any specific pversion of package we can use the command ->
 
-pip install package_name==x.x.xx  | version
+----------------pip install package_name==x.x.xx---------------------  | version
 
 so when we will give the requirements.txt file to anybody he can install the dependencies by the given above command.
 
 But if there are huge number of dependencies that it is very hard to install one by one so how can we do this ->
 
-path > pip install -r .\requirements.txt
+----------------path > pip install -r .\requirements.txt----------------
 
 it will automatically install all the dependencies.
 
 if we want to make a vritual environment that also have the packages of system pyhton (main)
 
 use 
-path> pip install --system-site-package virutal_env_folder_name
+--------------path> pip install --system-site-package virutal_env_folder_name----------------------
 
 
