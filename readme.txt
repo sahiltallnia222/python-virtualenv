@@ -75,3 +75,5 @@ go to the environment path in system
 open path ->
 
 move up all the paths related to that version.
+
+-----------------------------------------SAHIL TALLNIA ------------------------------->
