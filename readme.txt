@@ -76,4 +76,8 @@ open path ->
 
 move up all the paths related to that version.
 
+
+environment> script.py\activate
+deactivate
+
 -----------------------------------------SAHIL TALLNIA ------------------------------->
